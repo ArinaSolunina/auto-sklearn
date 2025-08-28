@@ -1,5 +1,8 @@
 # auto-sklearn
 
+Клонирование репозитория:
+git clone https://github.com/ArinaSolunina/auto-sklearn
+
 Сборка образа:
 docker build -t autosklearn_env .
 
