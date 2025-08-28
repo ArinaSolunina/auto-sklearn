@@ -1,14 +1,20 @@
 # auto-sklearn
 
-Клонирование репозитория:
-```python
+## Клонирование репозитория
+
+```bash
 git clone https://github.com/ArinaSolunina/auto-sklearn
-cd auto-sklearn```
+cd auto-sklearn
+```
 
-Сборка образа:
-```python
-docker build -t autosklearn_env .```
+## Сборка Docker-образа
 
-Запуск:
-```python
-docker run --rm autosklearn_env```
+```bash
+docker build -t autosklearn_env .
+```
+
+## Запуск контейнера
+
+```bash
+docker run --rm autosklearn_env
+```
